@@ -257,9 +257,9 @@ def get_df_sentence(df, column_name):
 #%%
 
 
-df1  = pd.read_excel(".\\Data\\alperen_100.xlsx")
-df2  = pd.read_excel(".\\Data\\Master.xlsx")
-df3  = pd.read_excel(".\\Data\\RESEARCH -taranan.xlsx")
+df1  = pd.read_excel("./Data/alperen_100.xlsx")
+df2  = pd.read_excel("./Data/Master.xlsx")
+df3  = pd.read_excel("./Data/RESEARCH -taranan.xlsx")
 #%%
 df = pd.concat([df1,df2,df3],axis=0)
 
